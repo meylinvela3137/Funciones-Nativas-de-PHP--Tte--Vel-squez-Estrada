@@ -214,3 +214,14 @@ echo date("d/m/Y");
 // Timestamp actual
 echo time();
 // resultado: ej. 1742688000
+
+//28. mktime()
+// convierte una fecha especifica a su valor timestamp unix
+
+// Timestamp de una fecha específica
+$ts = mktime(0,0,0, 12, 25, 2025);
+// resultado: timestamp de Navidad 2025
+
+//-----VARIABLES DE TIPO tipo/var
+
+//
