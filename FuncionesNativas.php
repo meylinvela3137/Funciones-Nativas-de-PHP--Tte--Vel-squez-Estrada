@@ -191,3 +191,11 @@ echo rand(1, 10);
 // Valor máximo
 echo max(3, 9, 5);
 // resultado: 9
+
+//25. min()
+//retorna el valor más bajo de una lista de valores o de un array
+
+// Valor mínimo
+echo min(3, 9, 5);
+// resultado: 3
+
