@@ -224,4 +224,11 @@ $ts = mktime(0,0,0, 12, 25, 2025);
 
 //-----VARIABLES DE TIPO tipo/var
 
-//
+//29. var_dump()
+//muestra el tipo y valor de una o más variables. Útil para depurar
+
+// Ver tipo y valor
+$x = 42;
+var_dump($x);
+// resultado: int(42)
+
