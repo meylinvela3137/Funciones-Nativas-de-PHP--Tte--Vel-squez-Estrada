@@ -124,3 +124,13 @@ $frutas = ["mango", "pera"];
 echo in_array("pera", $frutas);
 // resultado: true (1)
 
+//16. sort() 
+//ordena un array de menor a mayor (modificando el original)
+
+//ordenar de menor a mayor
+$nums = [3, 1, 4, 2,];
+sort($nums);
+// resultado: [1, 2, 3, 4]
+
+
+
