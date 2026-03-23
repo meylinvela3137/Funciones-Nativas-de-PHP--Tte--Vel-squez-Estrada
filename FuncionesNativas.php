@@ -132,5 +132,11 @@ $nums = [3, 1, 4, 2,];
 sort($nums);
 // resultado: [1, 2, 3, 4]
 
+//17. array_reverse()
+//invierte el orden de los elementos de un array.
 
+// Invertir orden
+$arr = [1, 2, 3];
+$inv = array_reverse($arr);
+// resultado: [3, 2, 1]
 
