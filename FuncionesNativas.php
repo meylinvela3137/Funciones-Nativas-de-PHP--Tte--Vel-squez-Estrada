@@ -50,5 +50,12 @@ $texto = "  hola  ";
 echo trim($texto);
 // resultado: "hola"
 
+//7.  strpos()
+// Busca la primera posición de un substring dentro de un string. Retorna false si no existe.
+
+// Posición de "mundo" en el texto
+$texto = "Hola mundo";
+echo strpos($texto, "mundo");
+// resultado: 5
 
 
