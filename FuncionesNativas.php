@@ -73,3 +73,10 @@ $arr = explode(",", $lista);
 $arr = ["a", "b", "c"];
 echo implode("-", $arr);
 // resultado: a-b-c
+
+//10. str_repeat()
+// Repite un string un número determinado de veces.
+
+// Repetir 3 veces
+echo str_repeat("ha", 3);
+// resultado: hahaha
