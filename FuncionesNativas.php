@@ -59,9 +59,17 @@ echo strpos($texto, "mundo");
 // resultado: 5
 
 //8. explode()
-// Divide un string en un array usando un separador.
+// Divide un string en un array usando un separador que uno seleccione puede ser entre comillas y comas. 
 
 // Separar por coma
 $lista = "pan,leche,huevo";
 $arr = explode(",", $lista);
 // resultado: ["pan","leche","huevo"]
+
+//9. implode()
+// Une los elementos de un array en un string con un separador.
+
+// Unir array con guión
+$arr = ["a", "b", "c"];
+echo implode("-", $arr);
+// resultado: a-b-c
