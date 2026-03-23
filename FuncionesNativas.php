@@ -199,3 +199,11 @@ echo max(3, 9, 5);
 echo min(3, 9, 5);
 // resultado: 3
 
+//----FUNCIONES DE TIPO FECHA 
+
+//26. date()
+//formatea una fecha/hora según el formato indicado. 
+
+// Fecha actual formateada
+echo date("d/m/Y");
+// resultado: ej. 23/03/2026
