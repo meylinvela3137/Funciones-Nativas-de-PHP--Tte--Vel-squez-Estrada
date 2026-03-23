@@ -116,5 +116,11 @@ $b = [3, 4];
 $c = array_merge($a, $b);
 // resultado: [1, 2, 3, 4]
 
+//15. in_array()
+// Verifica si un valor existe dentro de un array. Retorna true o false.
 
+// ¿Existe "pera" en el array?
+$frutas = ["mango", "pera"];
+echo in_array("pera", $frutas);
+// resultado: true (1)
 
