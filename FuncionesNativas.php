@@ -171,6 +171,13 @@ echo round(4.567, 2);
 echo ceil(4.1);
 // resultado: 5
 
+//22. floor()
+// redondea un numero hacia abajo al entero menor 
+
+// Redondear hacia abajo
+echo floor(4.9);
+// resultado: 4
+
 
 
 
