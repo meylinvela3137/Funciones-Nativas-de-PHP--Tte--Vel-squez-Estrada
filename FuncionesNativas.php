@@ -33,3 +33,15 @@ echo strtolower($texto);
 $frase = "Me gusta el café";
 echo str_replace("café", "té", $frase);
 // resultado: Me gusta el té
+
+//5. substr()
+//Extrae una parte de un string desde una posición dada, se puede seleccionar segun los numeros que coloquemos que cantidad o el numero de letras salga de nuestro texto
+
+// Subcadena desde posición 0, 4 chars
+$texto = "Guatemala";
+echo substr($texto, 0, 4);
+// resultado: Guat
+
+//6. trim()
+// Elimina espacios (u otros caracteres) al inicio y final de un string.
+
