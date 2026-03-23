@@ -240,4 +240,55 @@ $nombre = "Ana";
 echo isset($nombre);
 // resultado: true (1)
 
+//OTRAS IMPORTANTES 
+
+//31. empy
+//Verifica si una variable está vacía (0, '', null, [], false).
+
+// ¿Está vacía?
+$val = "";
+echo empty($val);
+// resultado: true (1)
+
+//32. intval()
+// convierte un valor a entero 
+
+// Convertir string a entero
+$precio = "25.99";
+echo intval($precio);
+// resultado: 25
+
+//33. is_numeric()
+//verifica si un valor es númerico (entero, float o string numerico)
+
+// ¿Es numérico?
+echo is_numeric("123");
+// resultado: true (1)
+
+//-----FUNCIONES TIPO OUTPUT
+
+//34. print_r()
+//muestta la información de una variable de forma legible. ideal para arrays
+
+// Ver contenido de un array
+$arr = ["a" => 1, "b" => 2];
+print_r($arr);
+// muestra: Array ( [a]=>1 [b]=>2 )
+
+//35. sprintf()
+//formatea un string con varibales insertadas según un patrón
+
+// Insertar valor en texto
+$precio = 9.5;
+echo sprintf("Total: Q%.2f", $precio);
+// resultado: Total: Q9.50
+
+//36. number_format()
+// formatea un número con decimales y separadores de miles
+
+// Formato moneda
+echo number_format(1234567.89, 2, ".", ",");
+// resultado: 1,234,567.89
+
+
 
