@@ -178,6 +178,12 @@ echo ceil(4.1);
 echo floor(4.9);
 // resultado: 4
 
+//23. rand()
+//genera un número entero aleatorio entre un minimo y un maximo
+
+// Número aleatorio entre 1 y 10
+echo rand(1, 10);
+// resultado: ej. 7 (varía)
 
 
 
