@@ -80,3 +80,15 @@ echo implode("-", $arr);
 // Repetir 3 veces
 echo str_repeat("ha", 3);
 // resultado: hahaha
+
+//----FUNCIONES DE TIPO ARRAY
+
+//11. count()
+// Cuenta el número de elementos en un array.
+
+// Cuenta los elementos dentro del array
+$frutas = ["mango", "pera", "uva"];
+echo count($frutas);
+// resultado: 3
+
+
