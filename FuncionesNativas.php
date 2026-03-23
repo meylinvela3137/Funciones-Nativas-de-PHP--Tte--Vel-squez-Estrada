@@ -91,4 +91,22 @@ $frutas = ["mango", "pera", "uva"];
 echo count($frutas);
 // resultado: 3
 
+//12. array_push()
+//Agrega uno o más elementos al final de un array.
+
+// Agregar al final los numeros 3, 4
+$nums = [1, 2];
+array_push($nums, 3, 4);
+// resultado: [1, 2, 3, 4]
+
+//13. array_pop()
+// Elimina y retorna el último elemento de un array.
+
+// Sacar último elemento
+$nums = [10, 20, 30];
+$ultimo = array_pop($nums);
+// $ultimo: 30 | $nums: [10, 20]
+
+
+
 
