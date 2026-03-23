@@ -140,3 +140,11 @@ $arr = [1, 2, 3];
 $inv = array_reverse($arr);
 // resultado: [3, 2, 1]
 
+//18. array_unique()
+// elimina valores duplicados en un array
+
+// Quitar duplicados
+$arr = [1, 2, 2, 3];
+$u = array_unique($arr);
+// resultado: [1, 2, 3]
+
