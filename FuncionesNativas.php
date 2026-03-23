@@ -157,5 +157,13 @@ $u = array_unique($arr);
 echo abs(-15);
 // resultado: 15
 
+//20. round()
+//redondea un número al entero más cercano (o a decimales indicados en el array)
+
+// Redondear a 2 decimales
+echo round(4.567, 2);
+// resultado: 4.57
+
+
 
 
