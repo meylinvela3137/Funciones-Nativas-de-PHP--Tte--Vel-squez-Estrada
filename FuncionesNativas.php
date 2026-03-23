@@ -232,3 +232,12 @@ $x = 42;
 var_dump($x);
 // resultado: int(42)
 
+//30. isset()
+// verificar si una variable existe y no es null. Retorna true o false.
+
+// ¿Está definida $nombre?
+$nombre = "Ana";
+echo isset($nombre);
+// resultado: true (1)
+
+
