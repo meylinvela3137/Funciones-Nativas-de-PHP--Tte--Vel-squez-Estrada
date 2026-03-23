@@ -148,3 +148,14 @@ $arr = [1, 2, 2, 3];
 $u = array_unique($arr);
 // resultado: [1, 2, 3]
 
+//-----FUNCIONES DE TIPO MATEMATICAS. 
+
+//19. abs() 
+// retorna el valor absoluto de un número (siempre positivo)
+
+// Valor absoluto
+echo abs(-15);
+// resultado: 15
+
+
+
