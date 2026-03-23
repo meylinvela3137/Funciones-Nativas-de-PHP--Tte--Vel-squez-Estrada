@@ -45,3 +45,10 @@ echo substr($texto, 0, 4);
 //6. trim()
 // Elimina espacios (u otros caracteres) al inicio y final de un string.
 
+// Quitar espacios alrededor
+$texto = "  hola  ";
+echo trim($texto);
+// resultado: "hola"
+
+
+
