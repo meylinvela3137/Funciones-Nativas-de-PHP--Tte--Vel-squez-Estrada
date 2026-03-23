@@ -51,11 +51,17 @@ echo trim($texto);
 // resultado: "hola"
 
 //7.  strpos()
-// Busca la primera posición de un substring dentro de un string. Retorna false si no existe.
+// Busca la primera posición de un substring dentro de un string. Retorna false si no existe, si existe coloca en que numero esta la posiciion de la primera letra.
 
 // Posición de "mundo" en el texto
 $texto = "Hola mundo";
 echo strpos($texto, "mundo");
 // resultado: 5
 
+//8. explode()
+// Divide un string en un array usando un separador.
 
+// Separar por coma
+$lista = "pan,leche,huevo";
+$arr = explode(",", $lista);
+// resultado: ["pan","leche","huevo"]
