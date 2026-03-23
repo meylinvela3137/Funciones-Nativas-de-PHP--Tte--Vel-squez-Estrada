@@ -207,3 +207,10 @@ echo min(3, 9, 5);
 // Fecha actual formateada
 echo date("d/m/Y");
 // resultado: ej. 23/03/2026
+
+//27. time()
+// Retorna el timestamp Unix actual (segundos desde 01/01/1970).
+
+// Timestamp actual
+echo time();
+// resultado: ej. 1742688000
