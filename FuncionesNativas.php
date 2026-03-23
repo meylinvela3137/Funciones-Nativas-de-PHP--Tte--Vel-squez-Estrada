@@ -185,5 +185,9 @@ echo floor(4.9);
 echo rand(1, 10);
 // resultado: ej. 7 (varía)
 
+//24. max()
+//retorna el valor más alto de una lista de valores o de un array 
 
-
+// Valor máximo
+echo max(3, 9, 5);
+// resultado: 9
