@@ -107,6 +107,14 @@ $nums = [10, 20, 30];
 $ultimo = array_pop($nums);
 // $ultimo: 30 | $nums: [10, 20]
 
+//14. array_merge()
+// Combina dos o más arrays en uno solo.
+
+// Unir dos arrays
+$a = [1, 2];
+$b = [3, 4];
+$c = array_merge($a, $b);
+// resultado: [1, 2, 3, 4]
 
 
 
