@@ -164,6 +164,13 @@ echo abs(-15);
 echo round(4.567, 2);
 // resultado: 4.57
 
+//21. ceil()
+//redondea un número hacia arriba al entero mayor
+
+// Redondear hacia arriba
+echo ceil(4.1);
+// resultado: 5
+
 
 
 
